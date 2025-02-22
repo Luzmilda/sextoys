@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8"> 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Bienvenido a nuestra tienda de juguetes para adultos, donde encontrarás una amplia variedad de productos para mejorar tu vida íntima. Explora nuestras categorías y descubre lo que tenemos para ofrecerte.">
+            <meta name="keywords" content="juguetes para adultos, tienda de juguetes, productos íntimos, bienestar sexual, juguetes eróticos, Juguetes para adultos, sex toys, juegos para parejas, juguetes sensuales, juguetes de placer, accesorios para adultos, masajeadores personales, juguetes íntimos, productos para la salud sexual, compras discretas de juguetes, juguetes para el bienestar sexual, juguetes para mejorar la intimidad, vibradores, estimuladores, juguetes para solteros, sex shop online, innovaciones en juguetes para adultos, guía de juguetes eróticos">
+            <meta name="author" content="A & L">
+            <meta name="robots" content="index, follow">
+            
+            <!-- Open Graph para redes sociales -->
+            <meta property="og:title" content="Explore & Enjoy">
+            <meta property="og:description" content="Bienvenido a nuestra tienda de juguetes para adultos, donde encontrarás una amplia variedad de productos para mejorar tu vida íntima. Explora nuestras categorías y descubre lo que tenemos para ofrecerte.">
+            <meta property="og:image" content="imagen/logo.jpg">
+            <meta property="og:url" content="https://explore&enjoy.com">
+            <meta property="og:type" content="website">
+        
+            <!-- Twitter, Instagram, Facebook y tik tok aun no se crear , asi que faltaria los links, imagenes de cada una de las redes sociales -->
+            <meta name="instagram:card" content="summary_large_image">
+            <meta name="instagram:site" content="@tuusuario">
+            <meta name="instagram:title" content="Explore & Enjoy">
+            <meta name="instagram:description" content="Descubre juguetes para adultos de alta calidad. Compra ahora y mejora tu experiencia íntima.">
+            <meta name="instagram:image" content="https://example.com/imagen.jpg">
+
+            <meta name="twitter:card" content="summary_large_image">
+            <meta name="twitter:site" content="@tuusuario">
+            <meta name="twitter:title" content="Explore & Enjoy">
+            <meta name="twitter:description" content="Descubre juguetes para adultos de alta calidad. Compra ahora y mejora tu experiencia íntima.">
+            <meta name="twitter:image" content="https://example.com/imagen.jpg">
+
+            <meta name="facebook:card" content="summary_large_image">
+            <meta name="facebook:site" content="@tuusuario">
+            <meta name="facebook:title" content="Explore & Enjoy">
+            <meta name="facebook:description" content="Descubre juguetes para adultos de alta calidad. Compra ahora y mejora tu experiencia íntima.">
+            <meta name="facebook:image" content="https://example.com/imagen.jpg">
+
+            <meta name="tiktok:card" content="summary_large_image">
+            <meta name="tiktok:site" content="@tuusuario">
+            <meta name="tiktok:title" content="Explore & Enjoy">
+            <meta name="tiktok:description" content="Descubre juguetes para adultos de alta calidad. Compra ahora y mejora tu experiencia íntima.">
+            <meta name="tiktok:image" content="https://example.com/imagen.jpg">
+            <link rel="stylesheet" href="css/style.css"> <!-- Asegúrate de que la ruta sea correcta -->
+            <link rel="icon" href="img/iconos/logo.jpg" type="image/x-icon"> <!-- Favicon -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+            <!--tipos de letras-->
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap">
+            <title>Euphoria SexToys</title>
+    </head>
+    <body>
+
+        <header>
+
+            <input type="checkbox" id="toggler"/>
+            <label for="toggler" class="fa fa-bars"></label>
+
+            <a href="#" class="logo">EUPHORIA <br> SEXTOYS</a>
+
+            <nav class="navbar">
+                <a href="#home">Inicio</a>
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#products">Productos</a>
+                <a href="#review">Comentarios</a>
+                <a href="#contact">Contactos</a>
+            </nav>
+
+            <div class="icons">
+                <a href="favoritos.html" class="fas fa-heart"></a>
+                <a href="carrito.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user"></a>
+            </div>
+
+        </header>
+<!--aqui empieza la seccion de inicio-->
+    <section class="home" id="home">
+
+        <div class="content">
+            <span>Bienvenidos a Euphoria SexToys</span>
+            <h3>JUGUETES Y LENCERIA</h3>
+            <p>Explora un mundo de placer en nuestra tienda de juguetes y lencería para adultos. Ofrecemos una cuidada selección de vibradores, consoladores y lencería exquisita, todos elegidos por su calidad y seguridad. Ya sea que busques nuevas sensaciones o desees sorprender a tu pareja, aquí encontrarás todo lo necesario para encender la pasión y disfrutar de momentos inolvidables.</p>
+            <a href="#products" class="btn">Comprar Ahora</a>
+        </div>
+    </section>
+<!--aqui termina la seccion de inicio-->
+
+<!--seccion Sobre Nosotros-->
+    <section class="about" id="about">
+
+        <h1 class="heading"><span>Sobre</span> Nosotros</h1>
+
+        <div class="row">
+            <div class="video-container">
+                <img src="img productoss/logos/sobre nosotros.jpg"><!-- loop autoplay muted Aqui necesito poner un video-->
+                <h3>Todo lo que Necesitas para Encender la Pasión</h3>
+            </div>
+
+            <div class="content">
+                <h3>¿Porque Elegirnos?</h3>
+                <p>En Euphoria SexToy, nos dedicamos a ofrecerte una experiencia única y satisfactoria en el mundo del placer. Nuestra amplia selección de productos de alta calidad, desde juguetes íntimos hasta lencería sensual, está diseñada para satisfacer todos tus deseos y necesidades. Nos enorgullece brindar un ambiente discreto y acogedor, donde puedes explorar y descubrir sin tabúes. Además, nuestro equipo de expertos está siempre disponible para asesorarte y ayudarte a encontrar lo que mejor se adapte a ti. Elige Explore & Enjoy y despierta tu pasión con confianza.</p>
+                <p>Te invitamos a visitarnos y descubrir todo lo que tenemos para ofrecerte. No olvides que tu satisfacción es nuestra prioridad, y estamos aquí para ayudarte a encontrar lo que realmente deseas. ¡Atrévete a vivir nuevas experiencias y haz de cada momento algo especial con nosotros!</p>
+                <a href="#" class="btn">Leer mas</a>
+            </div>
+        </div>
+    </section>
+<!--termina seccion sobre nosotros-->
+
+<!--seccion de los iconos empieza-->
+    <section class="icons-container">
+        
+        <div class="icons">
+            <img src="img/iconos/envios.jpg" alt="">
+            <div class="info">
+                <h3>Envio gratis</h3>
+                <span>pedidos arriba de 30€</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/iconos/devoluciones.jpg" alt="">
+            <div class="info">
+                <h3>5 días para devoluciones</h3>
+                <span>devolucion garantizada</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/iconos/ofertas.jpg" alt="">
+            <div class="info">
+                <h3>Ofertas y regalos</h3>
+                <span>Todo lo mejor para ofrecerte</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="img/iconos/pago.jpg" alt="">
+            <div class="info">
+                <h3>Pago seguro</h3>
+                <span>seguridad</span>
+            </div>
+        </div>
+    </section>
+<!--seccion de los iconos termina-->
+
+<!--products section start-->
+    <section class="products" id="products">
+
+        <h1 class="heading">Productos y <span>descuento</span></h1>
+
+        <div class="box-container">
+<!--productos for her start-->
+            <div class="box">
+                    <span class="discount">-15%</span>
+                    <div class="image">
+                        <a href="products.html#descuentosmujeres" target="_blank" >
+                            <img src="img/ofertas/descuento mujeres.jpg" alt="">  <!--poner imagen-->
+                            <div class="icons">
+                                <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <h3>Descuento para Ella, todo </h3>
+                    </div>
+            </div>
+<!--productos for her finish-->
+
+<!--productos for him start-->
+            <div class="box" id="descuentoshombres">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <a href="products.html#descuentoshombres" target="_blank">
+                        <img src="img/ofertas/descuento para hombres.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Descuento para El, todo</h3>
+                </div>
+            </div>
+<!--productos for him finish-->
+  
+
+            <div class="box" id="descuentoslenceria">
+                <span class="discount">-5%</span>
+                <div class="image">
+                    <a href="products.html#descuentoslenceria" target="_blank">
+                        <img src="img/ofertas/descuento lenceria.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Descuentos en Lenceria, todo</h3>
+                </div>
+            </div>
+
+
+            <div class="box" id="todomujeres">
+                
+                <div class="image">
+                    <a href="products.html#todomujeres" target="_blank"> <!-- Enlace a la página de productos -->
+                        <img src="img/menu de productos/todo mujer.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Todo Mujeres</h3>
+                </div>
+            </div>
+
+
+            <div class="box" id="todohombres">
+                
+                <div class="image">
+                    <a href="products.html#todohombres" target="_blank">
+                        <img src="img/menu de productos/todo hombres.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Todo Hombres</h3>
+                </div>
+            </div>
+
+
+            <div class="box" id="todolenceria">
+                
+                <div class="image">
+                    <a href="products.html#todolenceria" target="_blank">
+                        <img src="img/menu de productos/todo lenceria.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Todo Lenceria</h3>
+                </div>
+            </div>
+
+            
+            <div class="box" id="vibradores">
+                
+                <div class="image">
+                    <a href="products.html#vibradores" target="_blank">
+                        <img src="img/menu de productos/vibradores.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Vibradores</h3>
+                </div>
+            </div>
+
+
+            <div class="box" id="plugs">
+                
+                <div class="image">
+                    <a href="products.html#plugs" target="_blank">
+                        <img src="img/menu de productos/anales.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Plugs</h3>
+                </div>
+            </div>
+
+        
+            <div class="box" id="sado">
+                
+                <div class="image">
+                    <a href="products.html#sado" target="_blank">
+                        <img src="img/menu de productos/sado.jpg" alt="">  <!--poner imagen-->
+                        <div class="icons">
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>Sado</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!--products section ends-->
+
+<!--review section start-->
+    <section class="review" id="review">
+        
+        <h1 class="heading">Comentarios de <span>clientes</span></h1>
+        
+        <div class="box-container">
+            
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>El personal es muy conocedor, y siempre salgo sintiéndome informada y emocionada por mis compras. ¡Los productos son de alta calidad y siempre cumplen con lo prometido!</p>  <!--poner un parrafo-->
+                <div class="user">
+                    <img src="img/usuario mujer.jpg" alt=""> <!--poner imagen-->
+                    <div class="user-info">
+                        <h3>Lovehoney</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Me encanta lo rápido que llegan mis pedidos, y la calidad de los productos siempre es excelente. Además, su servicio al cliente es increíblemente útil y amable.</p>  <!--poner un parrafo-->
+                <div class="user">
+                    <img src="img/usuario mujer2.jpg" alt=""> <!--poner imagen-->
+                    <div class="user-info">
+                        <h3>Carla</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Unbound ha transformado mi experiencia con los juguetes sexuales. Los diseños son hermosos, y me encanta que prioricen la inclusión y la educación. ¡Cada compra se siente empoderadora!</p>  <!--poner un parrafo-->
+                <div class="user">
+                    <img src="img/usuarios.jpg" alt=""> <!--poner imagen-->
+                    <div class="user-info">
+                        <h3>Enrique</h3>
+                        <span>cliente feliz</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+
+<!--review section ends-->
+
+<!--contact section starts-->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span> Contacta con </span> Nosotros </h1>
+        
+        <div class="row">
+            
+            <form action="">
+                <input type="text" placeholder="Nombre" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="Numero" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar mensaje" class="btn">
+            </form>
+
+            <div class="image">
+                <img src="img/ofertas/imagen contactos.jpg" alt=""> <!--poner imagen-->
+            </div>
+            
+        </div>
+    </section>
+<!--contact section ends-->
+
+    </body>
+<!--section footer start-->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Enlaces rapidos</h3>
+                    <a href="#home">Inicio</a>
+                    <a href="#about">Sobre Nosotros</a>
+                    <a href="#products">Productos</a>
+                    <a href="#review">Comentarios</a>
+                    <a href="#contact">Contactos</a>
+            </div>
+
+            <div class="box">
+                <h3>Enlaces Extras</h3>
+                    <a href="#">Cuenta</a>
+                    <a href="#">Pedidos</a>
+                    <a href="#">Favoritos</a>
+            </div>
+
+            <div class="box">
+                <h3>Envios a Toda España</h3>
+                    <a href="#">Madrid</a>
+                    <a href="#">Barcelona</a>
+                    <a href="#">Valencia</a>
+                    <a href="#">Isla Baleares</a>
+            </div>
+
+            <div class="box">
+                <h3>Info contactos</h3>
+                    <a href="#">+34 640147283</a>
+                    <a href="#">lovetoys192@gmail.com</a>
+                    <a href="#">Madrid - España</a>
+                    <img src="img/metodos de pago.jpg" alt="">  <!--poner imagen-->
+            </div>
+
+            <div class="social-media">
+                <h3>Síguenos en nuestras redes sociales</h3>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i> LoveToys
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i> LoveToys
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i> LoveToys
+                </a>
+                <a href="https://www.tiktok.com" target="_blank">
+                    <i class="fab fa-tiktok"></i> LoveToys
+                </a>
+            </div>
+
+        </div>
+        
+        <div class="credit">creado por <span>miss. web designer </span>  | todos los derechos reservados</div> 
+
+    </section>
+<!--section footer ends-->
+</body>
+</html>
