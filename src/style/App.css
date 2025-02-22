@@ -1,0 +1,87 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding:2rem;
+    }
+    section {
+        padding: 2rem;
+    }
+    .home {
+        background-position: left;
+    }
+}
+
+
+@media (max-width:768px) {
+    header .fa-bars {
+        display: block;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 0.3s ease;
+    }
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Mostrar el menú */
+    }
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+    .home .content h3 {
+        font-size: 5rem;
+    }
+    .home .content span {
+        font-size: 2.5rem;
+    }
+    .icons-container .icons h3 {
+        font-size: 1.5rem;
+    }
+    .icons-container .icons span {
+        font-size: 1.3rem;
+    }
+    .products .box-container .box {
+        flex: 0 1 calc(50% - 1.5rem); /* Dos cajas en pantallas más pequeñas */
+    }
+}
+
+
+@media (max-width:450px) {
+    html {
+            font-size: 50%;
+    }
+    .heading {
+        font-size: 3rem;
+    }
+    .products .box-container .box {
+        flex: 0 1 100%; /* Una caja en pantallas muy pequeñas */
+    }
+}

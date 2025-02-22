@@ -1,0 +1,33 @@
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../../public/img/template/explore_enjoy.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
+}
+.home .content {
+    max-width: 50rem;
+}
+.home .content h3 {
+    font-size: 6rem;
+    color: #e84393;  
+    font-family: 'vidaloka', serif;
+    text-shadow: 2px 2px 4px rgb(252, 249, 251);
+}
+.home .content span {
+    font-size: 3.5rem;
+    color: #080808;
+    padding: 1rem o;
+    line-height: 1.5;
+    font-family: 'Dancing Script', cursive;
+}
+.home .content p {
+    font-size: 1.5rem;
+    color: #464545;
+    padding: 1rem 0;
+    line-height: 1.5; 
+}
+
