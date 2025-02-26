@@ -1,0 +1,64 @@
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    /*padding-bottom: 3rem;*/
+}
+
+/*h1 {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'vidaloka', serif;
+    font-weight: bold;
+    background: #fef2f8;
+    color: #333;
+}
+
+span {
+    font-family: 'vidaloka', serif;
+    font-weight: bold;
+    color: #e84393; 
+}*/
+
+.about .row .video-container {
+    flex: 1 1 40rem;
+    position: relative;
+}
+.about .row .video-container h3 {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    mix-blend-mode: screen;
+    font-weight: bold;
+}
+.about .row .video-container img {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+.about .row .content {
+    flex: 1 1 40rem;
+}
+.about .row .content h3 {
+    font-size: 3rem;
+    color: #333;
+    font-family: 'vidaloka', serif;
+}
+.about .row .content p {
+    font-size: 1.5rem;
+    color: #8a8888;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5rem;
+}

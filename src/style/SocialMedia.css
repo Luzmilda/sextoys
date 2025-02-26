@@ -1,0 +1,12 @@
+.social-media {
+    position: fixed; /* Fijo en la pantalla */
+    top: 20px; /* Ajusta la posición vertical */
+    right: 20px; /* Ajusta la posición horizontal */
+    justify-content: center;
+    margin: 87% 0;
+}
+
+.social-media a {
+    margin: 0 5px; /* Espaciado entre íconos */
+
+}

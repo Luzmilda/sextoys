@@ -1,0 +1,15 @@
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+    font-family: 'vidaloka', serif;
+    font-weight: bold;
+}
+.heading span {
+    font-family: 'vidaloka', serif;
+    font-weight: bold;
+    color: #e84393;
+}
